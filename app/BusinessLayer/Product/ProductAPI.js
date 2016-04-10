@@ -22,6 +22,7 @@ router.use(function(req, res, next) {
 // on routes that end in /products
 // ----------------------------------------------------
 router.route('/products')
+    // add new product
     .post(function(req, res) {
 
         //Instantiate Product

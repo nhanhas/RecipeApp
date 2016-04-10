@@ -7,6 +7,7 @@ var router = express.Router();
 
 //Load VOs
 var Recipe = require('./Recipe');
+var RecipeProduct = require('./RecipeProduct');
 var Product = require('../Product/Product');
 
 
@@ -24,6 +25,7 @@ router.use(function(req, res, next) {
 // on routes that end in /recipe
 // ----------------------------------------------------
 router.route('/recipes')
+    // add new recipe
     .post(function(req, res) {
         //first get product by ref
         Product.findOne({ref : req.body.ref}).exec(function (err, product){
@@ -33,20 +35,30 @@ router.route('/recipes')
 
             //Instantiate the new Recipe and new Product
             var recipe = new Recipe();
+            var recipeProduct = new RecipeProduct();
+
+            //fulfill the recipe product with product info
+            recipeProduct._recipeid = recipe._id;
+            recipeProduct.ref = product.ref;
+            recipeProduct.info = product.name + ' - ' + product.design;
 
             //Fulfill the Recipe
             recipe.name = req.body.name;
             recipe.productsList = [];
 
             //fulfill list with selected products
-            recipe.productsList.push(product._id);
+            recipe.productsList.push(recipeProduct._id);
 
-            // Save the recipe header
+            // Save the recipe product in recipe
             recipe.save(function(err) {
                  if (err)
                      res.send(err);
 
-                 res.json({ message: 'Recipe created!' });
+                 recipeProduct.save(function (err) {
+                     res.json({ message: 'Recipe created!' });
+
+                 });
+
 
              });
 

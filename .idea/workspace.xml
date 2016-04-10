@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15388bbc-fb9f-40ae-918a-7f967f0769c2" name="Default" comment="" />
+    <list default="true" id="15388bbc-fb9f-40ae-918a-7f967f0769c2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/BusinessLayer/Product/ProductAPI.js" afterPath="$PROJECT_DIR$/app/BusinessLayer/Product/ProductAPI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/BusinessLayer/Recipe/Recipe.js" afterPath="$PROJECT_DIR$/app/BusinessLayer/Recipe/Recipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeAPI.js" afterPath="$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeAPI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="RecipeApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/app/BusinessLayer/ServicesConfig.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,30 +40,30 @@
         <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Recipe/Recipe.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecipeAPI.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeAPI.js">
+      <file leaf-file-name="RecipeProduct.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeProduct.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecipeAPI.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.375">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.025">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -67,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Product/Product.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="5" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -77,9 +82,13 @@
         <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Product/ProductAPI.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#808#1223#0" expanded="false" />
+                <element signature="e#1094#1214#0" expanded="false" />
+                <element signature="e#1282#1440#0" expanded="false" />
+                <element signature="e#1336#1432#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -93,13 +102,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/BusinessLayer/Recipe/Recipe.js" />
         <option value="$PROJECT_DIR$/app/BusinessLayer/ServicesConfig.js" />
         <option value="$PROJECT_DIR$/app/server.js" />
         <option value="$PROJECT_DIR$/app/BusinessLayer/Product/Product.js" />
-        <option value="$PROJECT_DIR$/app/BusinessLayer/Product/ProductAPI.js" />
-        <option value="$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeAPI.js" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
+        <option value="$PROJECT_DIR$/app/BusinessLayer/Product/ProductAPI.js" />
+        <option value="$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeProduct.js" />
+        <option value="$PROJECT_DIR$/app/BusinessLayer/Recipe/Recipe.js" />
+        <option value="$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeAPI.js" />
       </list>
     </option>
   </component>
@@ -321,18 +331,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/BusinessLayer/ServicesConfig.js">
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Product/Product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.025">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -340,36 +342,56 @@
     <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Product/ProductAPI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#808#1223#0" expanded="false" />
+            <element signature="e#1094#1214#0" expanded="false" />
+            <element signature="e#1282#1440#0" expanded="false" />
+            <element signature="e#1336#1432#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/BusinessLayer/ServicesConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Recipe/Recipe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Product/Product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/BusinessLayer/Recipe/RecipeAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.375">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
